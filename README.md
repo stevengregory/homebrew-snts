@@ -1,18 +1,34 @@
-# Stevengregory Snts
+# Homebrew Tap for SN TypeScript Util
 
-## How do I install these formulae?
+Official Homebrew tap for [SN TypeScript Util](https://github.com/stevengregory/sn-typescript-util), a TypeScript workflow CLI for ServiceNow developers.
 
-`brew install stevengregory/snts/<formula>`
+## Installation
 
-Or `brew tap stevengregory/snts` and then `brew install <formula>`.
+```bash
+brew install stevengregory/snts/snts
+```
 
-Or, in a `brew bundle` `Brewfile`:
+## Usage
 
-```ruby
-tap "stevengregory/snts"
-brew "<formula>"
+```bash
+snts --help
+snts --version
 ```
 
 ## Documentation
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+See the [SN TypeScript Util documentation](https://github.com/stevengregory/sn-typescript-util#readme).
+
+## Updating
+
+```bash
+brew update
+brew upgrade snts
+```
+
+## Uninstalling
+
+```bash
+brew uninstall snts
+brew untap stevengregory/snts
+```
