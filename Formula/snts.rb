@@ -4,8 +4,8 @@
 class Snts < Formula
   desc "TypeScript CLI utility for ServiceNow developers using VS Code"
   homepage "https://github.com/stevengregory/sn-typescript-util"
-  url "https://registry.npmjs.org/sn-typescript-util/-/sn-typescript-util-1.6.3.tgz"
-  sha256 "307abe51fed6b51bb954a04345dcfb6eb795d5b62077411028db426b04b7f40d"
+  url "https://registry.npmjs.org/sn-typescript-util/-/sn-typescript-util-1.6.4.tgz"
+  sha256 "a216e094273fde6186bec19c9f504315d513a19a7a62ae47bb35776ac2204ea1"
   license "MIT"
 
   livecheck do
